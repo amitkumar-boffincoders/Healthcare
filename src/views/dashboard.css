@@ -1,0 +1,238 @@
+.dash {
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+  padding: 8px 9px;
+  margin: 10px 0;
+}
+.content {
+  height: auto;
+  overflow-y: scroll;
+}
+.appoint img {
+  float: left;
+  width: auto;
+}
+.appoint h4 {
+  font-weight: bolder;
+  font-size: 19px;
+}
+.appoint button {
+  float: right;
+}
+ul.appoint-list li img {
+  width: 51px;
+  border-radius: 38px;
+  margin: 4px 7px 0 0;
+  float: left;
+}
+ul.appoint-list li img.IMG {
+  width: 40px;
+  border-radius: 38px;
+  margin: 0px 7px 0 0;
+  float: left;
+}
+ul.appoint-list li button.btn {
+  padding: 6px 10px;
+  border-radius: 17px;
+  margin-top: 14px;
+}
+li {
+  list-style: none;
+}
+ul.appoint-list {
+  padding: 4px 11px;
+}
+ul.appoint-list li {
+  border: 1px solid #ccc;
+  border-radius: 14px;
+  margin: 0 0 15px 0;
+  padding: 7px;
+}
+ul.appoint-list li span {
+  margin: 0;
+  font-size: 14px;
+  font-weight: 600;
+  color: #6b6868;
+}
+ul.appoint-list li p {
+  margin: 0;
+  font-size: 13px;
+  color: #6b6868;
+}
+ul.appoint-list li.list-nav {
+  padding: 15px 12px;
+}
+.appoint-list .float-right {
+  float: right;
+}
+
+.appoint .fa {
+  font-size: 16px;
+  background: #000;
+  border-radius: 23px;
+  padding: 7px;
+  border-radius: 50%;
+  background: #ffffff;
+  box-shadow: 5px 5px 10px #666666, -5px -5px 10px #ffffff;
+  margin-top: 0;
+  float: right;
+  color: rgb(0, 0, 0);
+}
+.dash h5.temp {
+  font-size: 17px;
+  display: inline-flex;
+  font-weight: 700;
+  border: 1px solid #ccc;
+  padding: 15px 5px;
+  border-radius: 11px;
+  width: 100%;
+}
+p.temp {
+  font-weight: 500;
+  margin: 0 22px;
+}
+#bar-chart {
+  min-width: 100%;
+  padding-top: 48px;
+  height: 42vh;
+  position: relative;
+}
+
+.notify {
+  color: red;
+  float: left;
+  margin: 4px 8px 0 0;
+}
+.notify1 {
+  color: #1ce1ac;
+  float: left;
+  margin: 4px 8px 0 0;
+}
+
+.notify2 {
+  color: #4985fe;
+  float: left;
+  margin: 4px 8px 0 0;
+}
+.dash .text-center .btn {
+  background: #d9a90c;
+  padding: 12px 35px;
+  border-radius: 24px;
+}
+
+@media (min-width: 1024px) {
+  #bar-chart {
+    max-width: 100% !important;
+  }
+}
+@media (min-width: 375px) {
+  #bar-chart {
+    max-width: 100% !important;
+  }
+}
+
+/* about-us start */
+.aboutus-section {
+  padding: 90px 0;
+}
+.aboutus-title {
+  font-size: 30px;
+  letter-spacing: 0;
+  line-height: 32px;
+  margin: 0 0 39px;
+  padding: 0 0 11px;
+  position: relative;
+  text-transform: uppercase;
+  color: #000;
+}
+.aboutus-title::after {
+  background: #fdb801 none repeat scroll 0 0;
+  bottom: 0;
+  content: "";
+  height: 2px;
+  left: 0;
+  position: absolute;
+  width: 54px;
+}
+.aboutus-text {
+  color: #606060;
+  font-size: 13px;
+  line-height: 22px;
+  margin: 0 0 35px;
+}
+
+a:hover,
+a:active {
+  color: #ffb901;
+  text-decoration: none;
+  outline: 0;
+}
+.aboutus-more {
+  border: 1px solid #fdb801;
+  border-radius: 25px;
+  color: #fdb801;
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 0;
+  padding: 7px 20px;
+  text-transform: uppercase;
+}
+.feature .feature-box .iconset {
+  background: #fff none repeat scroll 0 0;
+  float: left;
+  position: relative;
+  width: 16%;
+  border-radius: 50px;
+}
+.feature .feature-box .iconset::after {
+  background: #fdb801 none repeat scroll 0 0;
+  content: "";
+  height: 150%;
+  left: 43%;
+  position: absolute;
+  top: 100%;
+  width: 1px;
+}
+
+.feature .feature-box .feature-content h4 {
+  color: #0f0f0f;
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: 22px;
+  margin: 0 0 5px;
+}
+
+.feature .feature-box .feature-content {
+  float: left;
+  padding-left: 28px;
+  width: 78%;
+}
+.feature .feature-box .feature-content h4 {
+  color: #0f0f0f;
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: 22px;
+  margin: 0 0 5px;
+}
+.feature .feature-box .feature-content p {
+  color: #606060;
+  font-size: 13px;
+  line-height: 22px;
+}
+.fas.fa-cog {
+  color: #f4b841;
+  padding: 0px;
+  font-size: 40px;
+  border: 1px solid #fdb801;
+  border-radius: 100px;
+  color: #fdb801;
+  font-size: 28px;
+  height: 70px;
+  line-height: 70px;
+  text-align: center;
+  width: 70px;
+}
+
+/* about-us end */
